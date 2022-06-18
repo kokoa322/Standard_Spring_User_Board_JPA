@@ -1,0 +1,3 @@
+2022-06-15 11:05:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER_ENTITY" not found (this database is empty); SQL statement:
+select userentity0_._id as _id1_1_, userentity0_.email as email2_1_, userentity0_.layout as layout3_1_, userentity0_.name as name4_1_, userentity0_.nickname as nickname5_1_, userentity0_.password as password6_1_, userentity0_.role as role7_1_ from user_entity userentity0_ where userentity0_.name=? [42104-212]
